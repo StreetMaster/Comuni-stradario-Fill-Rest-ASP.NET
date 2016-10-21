@@ -7,11 +7,19 @@
 // </generato automaticamente>
 //------------------------------------------------------------------------------
 
-namespace FillRest_ASPNET
-{
+namespace FillRest_ASPNET {
     
     
     public partial class DemoFill {
+        
+        /// <summary>
+        /// Controllo Image1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image1;
         
         /// <summary>
         /// Controllo txtKey.
