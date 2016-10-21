@@ -1,7 +1,10 @@
 # DemoFillRestASPNET
 Demo ASP.NET per l'utilizzo del ws soap FILL di verifica e normalizzazione indirizzi italiani di StreetMaster
 
-Il progetto è sviluppato in C# - Framework 4.6.1
+Ambiente di sviluppo:
+  - C#
+  - Framework 4.6.1
+  - Visual Studio Professional 2015 SP2
 
 Il protocollo di comunicazione e' in formato JSON e viene utilizzata la libreria opensource RestSharp (http://restsharp.org/)
 
