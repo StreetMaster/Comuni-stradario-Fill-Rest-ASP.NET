@@ -9,7 +9,7 @@ Comuni italiani e stradario. Soluzione ASP.NET per l'utilizzo del ws soap FILL d
 
 ### Endpoint
 ```
-     http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/smrest/fill
+     https://streetmaster.streetmaster.it/smrest/fill
 ```
 Il protocollo di comunicazione e' in formato JSON e viene utilizzata la libreria opensource RestSharp (http://restsharp.org/)
 
