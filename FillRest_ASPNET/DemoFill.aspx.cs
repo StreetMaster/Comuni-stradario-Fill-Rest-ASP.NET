@@ -7,7 +7,7 @@ namespace FillRest_ASPNET
     /// Esempio di utilizzo del servizio WS FILL per la verifica e la normalizzazione degli indirizzi italiani 
     /// 
     /// L'end point del servizio è 
-    ///     http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com/smrest/webresources/fill
+    ///     https://streetmaster.streetmaster.it/smrest/webresources/fill
     ///     
     /// Per l'utilizzo registrarsi sul sito http://streetmaster.it e richiedere la chiave per il servizio FILL 
     /// Il protocollo di comunicazione e' in formato JSON
@@ -32,7 +32,7 @@ namespace FillRest_ASPNET
 
             // inizializzazione client del servizio FILL
             var clientFill = new RestSharp.RestClient();
-            clientFill.BaseUrl = new Uri("http://ec2-46-137-97-173.eu-west-1.compute.amazonaws.com");
+            clientFill.BaseUrl = new Uri("https://streetmaster.streetmaster.it");
 
             var request = new RestRequest("smrest/webresources/fill", Method.GET);
             request.RequestFormat = DataFormat.Json;
